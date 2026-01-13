@@ -53,8 +53,10 @@
             btnSend.Name = "btnSend";
             btnSend.Size = new Size(800, 40);
             btnSend.TabIndex = 4;
+            btnSend.TabStop = false;
             btnSend.Text = "Send";
             btnSend.UseVisualStyleBackColor = false;
+            btnSend.Click += btnSend_Click;
             // 
             // txtMessage
             // 
@@ -76,7 +78,7 @@
             flpMessages.TabIndex = 6;
             flpMessages.WrapContents = false;
             // 
-            // Form1
+            // ChatForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -85,7 +87,8 @@
             Controls.Add(txtMessage);
             Controls.Add(btnSend);
             Controls.Add(lblUser);
-            Name = "Form1";
+            KeyPreview = true;
+            Name = "ChatForm";
             Text = "Form1";
             ResumeLayout(false);
             PerformLayout();

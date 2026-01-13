@@ -15,6 +15,8 @@ namespace MiniChat
         public ChatForm(int id, string name)
         {
             InitializeComponent();
+            this.DoubleBuffered = true;
+
             userId = id;
             userName = name;
             lblUser.Text = "Chat with " + userName;
@@ -54,13 +56,97 @@ namespace MiniChat
 
         private void btnSend_Click(object sender, EventArgs e)
         {
-            string message = txtMessage.Text.Trim();
-            if (!string.IsNullOrEmpty(message))
+            string msg = txtMessage.Text.Trim();
+            if (msg == "") return;
+
+            // Save user message to DB
+            db.AddMessage(userId, msg);
+            AddMessageBubble(msg, true);
+            txtMessage.Clear();
+
+            // Bot reply after 500ms
+            Task.Delay(500).ContinueWith(_ =>
             {
-                db.AddMessage(userId, message);
-                txtMessage.Clear();
-                LoadMessages();
-            }
+                Invoke(new Action(() =>
+                {
+                    string reply = GenerateReply(msg);   // <-- use your predefined replies
+                    AddMessageBubble(reply, false);
+                    db.AddMessage(userId, reply);       // optionally save bot reply in DB
+                }));
+            });
+
+
+            //CODE FOR REPEATING SAME MESSAGE
+
+            //string msg = txtMessage.Text.Trim();
+            //if (msg == "") return;
+
+            //db.AddMessage(userId, msg);
+            //AddMessageBubble(msg, true);
+            //txtMessage.Clear();
+
+            //// trigger demo bot
+            //Task.Delay(500).ContinueWith(_ =>
+            //{
+            //    Invoke(new Action(() =>
+            //    {
+            //        AddMessageBubble("Demo reply: " + msg, false);
+            //    }));
+            //});
         }
+
+
+        private void AddAutoReply(string userMessage)
+        {
+            string reply = GenerateReply(userMessage);
+            db.AddMessage(userId, reply);
+            LoadMessages();
+        }
+
+        private string GenerateReply(string input)
+        {
+            input = input.ToLower();
+
+            if (input.Contains("hi") || input.Contains("hello"))
+                return "Hello! How are you?";
+
+            if (input.Contains("how are you"))
+                return "I'm good! Thanks for asking.";
+
+            if (input.Contains("fine") || input.Contains("good"))
+                return "Glad to hear that!";
+
+            if (input.Contains("bye"))
+                return "Goodbye!";
+
+            return "I don't really understand. Try asking me how I am, or say hello, or say bye.";
+        }
+
+        private void AddMessageBubble(string text, bool isUser)
+        {
+            Panel container = new Panel();
+            container.AutoSize = true;
+            container.MaximumSize = new Size(flpMessages.Width - 50, 0);
+            container.Padding = new Padding(5);
+
+            Label lbl = new Label();
+            lbl.AutoSize = true;
+            lbl.MaximumSize = new Size(250, 0);
+            lbl.Text = text;
+            lbl.Padding = new Padding(8);
+            lbl.BackColor = isUser ? Color.LightBlue : Color.LightGray;
+            lbl.Margin = new Padding(3);
+
+            container.Controls.Add(lbl);
+
+            // Align bubbles
+            container.Dock = DockStyle.Top;
+            container.Anchor = isUser ? AnchorStyles.Top | AnchorStyles.Right
+                                      : AnchorStyles.Top | AnchorStyles.Left;
+
+            flpMessages.Controls.Add(container);
+            flpMessages.ScrollControlIntoView(container);
+        }
+
     }
 }
