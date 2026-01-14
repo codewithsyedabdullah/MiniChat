@@ -1,2 +1,2 @@
 # MiniChat
-a basic chat bot made by using C# and SQ Database
+a basic chat bot made by using C# and SQ Database inititally backed up by demo-replies, AI API integration soon!

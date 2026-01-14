@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{740EB9F6-BC97-5B5E-6CBF-7CF03AEE9E1B}|MiniChat\\MiniChat.csproj|solutionrelative:minichat\\forms\\chatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{740EB9F6-BC97-5B5E-6CBF-7CF03AEE9E1B}|MiniChat\\MiniChat.csproj|c:\\users\\786 computers\\source\\repos\\minichat\\minichat\\forms\\chatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{740EB9F6-BC97-5B5E-6CBF-7CF03AEE9E1B}|MiniChat\\MiniChat.csproj|C:\\Users\\786 COMPUTERS\\source\\repos\\MiniChat\\minichat\\forms\\chatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{740EB9F6-BC97-5B5E-6CBF-7CF03AEE9E1B}|MiniChat\\MiniChat.csproj|solutionrelative:minichat\\forms\\chatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -49,6 +49,23 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ChatForm.cs",
+              "DocumentMoniker": "C:\\Users\\786 COMPUTERS\\source\\repos\\MiniChat\\MiniChat\\Forms\\ChatForm.cs",
+              "RelativeDocumentMoniker": "MiniChat\\Forms\\ChatForm.cs",
+              "ToolTip": "C:\\Users\\786 COMPUTERS\\source\\repos\\MiniChat\\MiniChat\\Forms\\ChatForm.cs",
+              "RelativeToolTip": "MiniChat\\Forms\\ChatForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T19:10:07.606Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "ChatForm.cs [Design]",
@@ -62,23 +79,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ChatForm.cs",
-              "DocumentMoniker": "C:\\Users\\786 COMPUTERS\\source\\repos\\MiniChat\\MiniChat\\Forms\\ChatForm.cs",
-              "RelativeDocumentMoniker": "MiniChat\\Forms\\ChatForm.cs",
-              "ToolTip": "C:\\Users\\786 COMPUTERS\\source\\repos\\MiniChat\\MiniChat\\Forms\\ChatForm.cs",
-              "RelativeToolTip": "MiniChat\\Forms\\ChatForm.cs",
-              "ViewState": "AgIAAG4AAAAAAAAAAAAqwHkAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T19:10:07.606Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "ChatForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\786 COMPUTERS\\source\\repos\\MiniChat\\MiniChat\\Forms\\ChatForm.Designer.cs",
@@ -87,8 +87,7 @@
               "RelativeToolTip": "MiniChat\\Forms\\ChatForm.Designer.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAA1wGcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T19:32:06.829Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-13T19:32:06.829Z"
             },
             {
               "$type": "Document",
@@ -100,8 +99,7 @@
               "RelativeToolTip": "MiniChat\\Forms\\Form1.Designer.cs",
               "ViewState": "AgIAACYAAAAAAAAAAAAIwC4AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T21:08:07.896Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-12T21:08:07.896Z"
             },
             {
               "$type": "Document",
@@ -113,8 +111,7 @@
               "RelativeToolTip": "MiniChat\\Data\\DatabaseHelper.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAQwA0AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T17:54:55.145Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-12T17:54:55.145Z"
             },
             {
               "$type": "Document",
@@ -126,8 +123,7 @@
               "RelativeToolTip": "MiniChat\\Models\\Message.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAxwBIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T18:07:13.15Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-12T18:07:13.15Z"
             },
             {
               "$type": "Document",
