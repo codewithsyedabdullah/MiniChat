@@ -60,22 +60,10 @@
               "RelativeDocumentMoniker": "MiniChat\\Forms\\ChatForm.cs",
               "ToolTip": "C:\\Users\\786 COMPUTERS\\source\\repos\\MiniChat\\MiniChat\\Forms\\ChatForm.cs",
               "RelativeToolTip": "MiniChat\\Forms\\ChatForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHoAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAIwEAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-13T19:10:07.606Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ChatForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\786 COMPUTERS\\source\\repos\\MiniChat\\MiniChat\\Forms\\ChatForm.cs",
-              "RelativeDocumentMoniker": "MiniChat\\Forms\\ChatForm.cs",
-              "ToolTip": "C:\\Users\\786 COMPUTERS\\source\\repos\\MiniChat\\MiniChat\\Forms\\ChatForm.cs [Design]",
-              "RelativeToolTip": "MiniChat\\Forms\\ChatForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T18:59:58.921Z",
-              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -160,6 +148,17 @@
               "ViewState": "AgIAAAgAAAAAAAAAAAAQwAYAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-12T18:06:25.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChatForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\786 COMPUTERS\\source\\repos\\MiniChat\\MiniChat\\Forms\\ChatForm.cs",
+              "RelativeDocumentMoniker": "MiniChat\\Forms\\ChatForm.cs",
+              "ToolTip": "C:\\Users\\786 COMPUTERS\\source\\repos\\MiniChat\\MiniChat\\Forms\\ChatForm.cs [Design]",
+              "RelativeToolTip": "MiniChat\\Forms\\ChatForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T18:59:58.921Z"
             }
           ]
         }

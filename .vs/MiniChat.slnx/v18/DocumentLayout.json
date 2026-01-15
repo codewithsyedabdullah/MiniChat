@@ -46,8 +46,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -56,7 +60,7 @@
               "RelativeDocumentMoniker": "MiniChat\\Forms\\ChatForm.cs",
               "ToolTip": "C:\\Users\\786 COMPUTERS\\source\\repos\\MiniChat\\MiniChat\\Forms\\ChatForm.cs",
               "RelativeToolTip": "MiniChat\\Forms\\ChatForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHoAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAkwLwAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-13T19:10:07.606Z",
               "EditorCaption": ""
@@ -144,10 +148,6 @@
               "ViewState": "AgIAAAgAAAAAAAAAAAAQwAYAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-12T18:06:25.097Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
