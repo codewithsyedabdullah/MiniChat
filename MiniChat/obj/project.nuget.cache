@@ -1,11 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "nJVO5oOdmYg=",
+  "dgSpecHash": "56ivkymmBUw=",
   "success": true,
   "projectFilePath": "C:\\Users\\786 COMPUTERS\\source\\repos\\MiniChat\\MiniChat\\MiniChat.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\786 COMPUTERS\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\786 COMPUTERS\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.3\\microsoft.extensions.logging.abstractions.8.0.3.nupkg.sha512",
+    "C:\\Users\\786 COMPUTERS\\.nuget\\packages\\openai\\2.8.0\\openai.2.8.0.nupkg.sha512",
     "C:\\Users\\786 COMPUTERS\\.nuget\\packages\\stub.system.data.sqlite.core.netstandard\\1.0.119\\stub.system.data.sqlite.core.netstandard.1.0.119.nupkg.sha512",
-    "C:\\Users\\786 COMPUTERS\\.nuget\\packages\\system.data.sqlite.core\\1.0.119\\system.data.sqlite.core.1.0.119.nupkg.sha512"
+    "C:\\Users\\786 COMPUTERS\\.nuget\\packages\\system.clientmodel\\1.8.1\\system.clientmodel.1.8.1.nupkg.sha512",
+    "C:\\Users\\786 COMPUTERS\\.nuget\\packages\\system.data.sqlite.core\\1.0.119\\system.data.sqlite.core.1.0.119.nupkg.sha512",
+    "C:\\Users\\786 COMPUTERS\\.nuget\\packages\\system.memory.data\\8.0.1\\system.memory.data.8.0.1.nupkg.sha512"
   ],
   "logs": []
 }
